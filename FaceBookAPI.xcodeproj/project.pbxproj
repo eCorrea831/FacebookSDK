@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA32887D1D1B0F0500A225EA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA32887A1D1B0F0500A225EA /* FBSDKCoreKit.framework */; };
+		AA32887E1D1B0F0500A225EA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA32887B1D1B0F0500A225EA /* FBSDKLoginKit.framework */; };
+		AA32887F1D1B0F0500A225EA /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA32887C1D1B0F0500A225EA /* FBSDKShareKit.framework */; };
+		AAEC50CE1D19E391002CC3EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEC50CD1D19E391002CC3EC /* main.m */; };
+		AAEC50D11D19E391002CC3EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEC50D01D19E391002CC3EC /* AppDelegate.m */; };
+		AAEC50D41D19E391002CC3EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEC50D31D19E391002CC3EC /* ViewController.m */; };
+		AAEC50D71D19E391002CC3EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC50D51D19E391002CC3EC /* Main.storyboard */; };
+		AAEC50D91D19E391002CC3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEC50D81D19E391002CC3EC /* Assets.xcassets */; };
+		AAEC50DC1D19E391002CC3EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC50DA1D19E391002CC3EC /* LaunchScreen.storyboard */; };
+		AAEC50E41D19E39E002CC3EC /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = AAEC50E31D19E39E002CC3EC /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA32887A1D1B0F0500A225EA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AA32887B1D1B0F0500A225EA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AA32887C1D1B0F0500A225EA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		AAEC50C91D19E391002CC3EC /* FaceBookAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEC50CD1D19E391002CC3EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAEC50CF1D19E391002CC3EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAEC50D01D19E391002CC3EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAEC50D21D19E391002CC3EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AAEC50D31D19E391002CC3EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AAEC50D61D19E391002CC3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAEC50D81D19E391002CC3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAEC50DB1D19E391002CC3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAEC50DD1D19E391002CC3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEC50E31D19E39E002CC3EC /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = ../README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAEC50C61D19E391002CC3EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32887E1D1B0F0500A225EA /* FBSDKLoginKit.framework in Frameworks */,
+				AA32887D1D1B0F0500A225EA /* FBSDKCoreKit.framework in Frameworks */,
+				AA32887F1D1B0F0500A225EA /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3288801D1B114300A225EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA32887A1D1B0F0500A225EA /* FBSDKCoreKit.framework */,
+				AA32887B1D1B0F0500A225EA /* FBSDKLoginKit.framework */,
+				AA32887C1D1B0F0500A225EA /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			path = FaceBookAPI;
+			sourceTree = "<group>";
+		};
+		AAEC50C01D19E391002CC3EC = {
+			isa = PBXGroup;
+			children = (
+				AAEC50CB1D19E391002CC3EC /* FaceBookAPI */,
+				AA3288801D1B114300A225EA /* Frameworks */,
+				AAEC50CA1D19E391002CC3EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAEC50CA1D19E391002CC3EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC50C91D19E391002CC3EC /* FaceBookAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAEC50CB1D19E391002CC3EC /* FaceBookAPI */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC50CF1D19E391002CC3EC /* AppDelegate.h */,
+				AAEC50D01D19E391002CC3EC /* AppDelegate.m */,
+				AAEC50D21D19E391002CC3EC /* ViewController.h */,
+				AAEC50D31D19E391002CC3EC /* ViewController.m */,
+				AAEC50D51D19E391002CC3EC /* Main.storyboard */,
+				AAEC50CC1D19E391002CC3EC /* Supporting Files */,
+			);
+			path = FaceBookAPI;
+			sourceTree = "<group>";
+		};
+		AAEC50CC1D19E391002CC3EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC50DD1D19E391002CC3EC /* Info.plist */,
+				AAEC50D81D19E391002CC3EC /* Assets.xcassets */,
+				AAEC50DA1D19E391002CC3EC /* LaunchScreen.storyboard */,
+				AAEC50E31D19E39E002CC3EC /* README.txt */,
+				AAEC50CD1D19E391002CC3EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEC50C81D19E391002CC3EC /* FaceBookAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEC50E01D19E391002CC3EC /* Build configuration list for PBXNativeTarget "FaceBookAPI" */;
+			buildPhases = (
+				AAEC50C61D19E391002CC3EC /* Frameworks */,
+				AAEC50C51D19E391002CC3EC /* Sources */,
+				AAEC50C71D19E391002CC3EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookAPI;
+			productName = FaceBookAPI;
+			productReference = AAEC50C91D19E391002CC3EC /* FaceBookAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEC50C11D19E391002CC3EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TurnToTech;
+				TargetAttributes = {
+					AAEC50C81D19E391002CC3EC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AAEC50C41D19E391002CC3EC /* Build configuration list for PBXProject "FaceBookAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAEC50C01D19E391002CC3EC;
+			productRefGroup = AAEC50CA1D19E391002CC3EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEC50C81D19E391002CC3EC /* FaceBookAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEC50C71D19E391002CC3EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEC50DC1D19E391002CC3EC /* LaunchScreen.storyboard in Resources */,
+				AAEC50D91D19E391002CC3EC /* Assets.xcassets in Resources */,
+				AAEC50E41D19E39E002CC3EC /* README.txt in Resources */,
+				AAEC50D71D19E391002CC3EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAEC50C51D19E391002CC3EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEC50D41D19E391002CC3EC /* ViewController.m in Sources */,
+				AAEC50D11D19E391002CC3EC /* AppDelegate.m in Sources */,
+				AAEC50CE1D19E391002CC3EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAEC50D51D19E391002CC3EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEC50D61D19E391002CC3EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAEC50DA1D19E391002CC3EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEC50DB1D19E391002CC3EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAEC50DE1D19E391002CC3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAEC50DF1D19E391002CC3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAEC50E11D19E391002CC3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookAPI",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/adityanarayan/Documents/FacebookSDK;
+				INFOPLIST_FILE = FaceBookAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TurnToTech.FaceBookAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAEC50E21D19E391002CC3EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FaceBookAPI",
+				);
+				INFOPLIST_FILE = FaceBookAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TurnToTech.FaceBookAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAEC50C41D19E391002CC3EC /* Build configuration list for PBXProject "FaceBookAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC50DE1D19E391002CC3EC /* Debug */,
+				AAEC50DF1D19E391002CC3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEC50E01D19E391002CC3EC /* Build configuration list for PBXNativeTarget "FaceBookAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEC50E11D19E391002CC3EC /* Debug */,
+				AAEC50E21D19E391002CC3EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAEC50C11D19E391002CC3EC /* Project object */;
+}
